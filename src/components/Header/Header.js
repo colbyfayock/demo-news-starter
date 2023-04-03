@@ -9,14 +9,21 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
-        <p className={styles.headerTitle}>
-          <Link href="/">
-            Pokémon Generator
-          </Link>
-        </p>
+        <div className={styles.headerLogo}>
+          <p className={styles.headerTitle}>
+            <Link href="/">
+              The Hundred
+            </Link>
+          </p>
+          <p className={styles.headerTagline}>
+            <Link href="/">
+              Know everything. No Limits.
+            </Link>
+          </p>
+        </div>
         <ul className={styles.headerLinks}>
           <li>
-            <a href="https://github.com/colbyfayock" rel="noreferrer">
+            <a href="https://github.com/colbyfayock/demo-news-starter" rel="noreferrer">
               <FaGithub />
             </a>
           </li>

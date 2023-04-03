@@ -12,8 +12,8 @@
   text-decoration: none;
   background-color: $color-primary;
   padding: .8em 1.2em;
-  border: solid 2px lighten($color-primary, 10);
-  border-radius: .2em;
+  border: solid 2px $color-primary;
+  border-radius: 0;
   cursor: pointer;
 
   &:hover {

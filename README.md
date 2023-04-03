@@ -1,7 +1,7 @@
-# Demo Pokémon Generator Starter
+# Demo News Starter
 
 ```
-yarn create next-app -e https://github.com/colbyfayock/demo-pokemon-generator-starter
+yarn create next-app -e https://github.com/colbyfayock/demo-news-starter
 # or
-npx create-next-app -e https://github.com/colbyfayock/demo-pokemon-generator-starter
+npx create-next-app -e https://github.com/colbyfayock/demo-news-starter
 ```

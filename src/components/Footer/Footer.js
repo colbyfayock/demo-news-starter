@@ -10,7 +10,10 @@ const Footer = ({ ...rest }) => {
           &copy; <a href="https://spacejelly.dev">Space Jelly</a>, {new Date().getFullYear()}
         </p>
         <p>
-          Icons &amp; Colors from <a href="https://github.com/duiker101/pokemon-type-svg-icons">Pokemon Type SVG Icons</a>
+          The Hundred is <a href="https://www.esquire.com/uk/culture/a43377701/what-is-the-hundred-succession/" rel="noreferrer">based on a news company</a> from HBO TV series <a href="https://www.hbo.com/succession">Succession</a>.
+        </p>
+        <p>
+          Site design inspired by some news sites and <a href="https://hypebeast.com/">Hypebeast</a>.
         </p>
       </Container>
     </footer>

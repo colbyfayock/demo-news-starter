@@ -2,8 +2,9 @@
 
 .header {
   width: 100%;
-  color: $color-gray-dark;
+  color: white;
   font-size: 1em;
+  background-color: $color-red;
   padding: 1em 0;
   margin: 0;
 }
@@ -14,16 +15,28 @@
   align-items: center;
 }
 
+.headerTitle,
+.headerTagline {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .headerTitle {
 
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
+  text-transform: uppercase;
   margin: 0;
 
   a {
     text-decoration: none;
   }
 
+}
+
+.headerTagline {
+  font-size: .8em;
 }
 
 .headerLinks {

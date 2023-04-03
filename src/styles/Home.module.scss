@@ -1,56 +1,24 @@
-.cardContainer {
-  
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+@import "@/styles/settings/_settings";
 
-  @media (min-width: 720px) {
-    flex-direction: row;
+.heroContainer {
+  
+  display: grid;
+  grid-gap: 3em;
+
+  @media (min-width: $breakpoint-large) {
+    grid-template-columns: 6fr 4fr;
   }
 
 }
 
-.card {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  order: 1;
-  width: 100%;
-
-  @media (min-width: 720px) {
-    width: 24em;
-    align-items: flex-start;
-    order: 0;
-  }
-
-  h2 {
-    margin-bottom: 0;
-  }
-
+.heroTitle {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding-bottom: .5em;
+  border-bottom: solid 2px $color-red;
+  margin-bottom: 2em;
 }
 
-.form {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  order: 0;
-  margin: 0 0 2em;
-
-  @media (min-width: 720px) {
-    align-items: flex-start;
-    order: 1;
-    margin: 0 0 0 2em;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  button {
-    font-size: 1.2em;
-  }
-  
+.unlock {
+  text-align: center;
 }
