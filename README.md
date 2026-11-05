@@ -1,8 +1,23 @@
 # Demo News Starter
 
-```
-yarn create next-app -e https://github.com/colbyfayock/demo-news-starter
-# or
-npx create-next-app -e https://github.com/colbyfayock/demo-news-starter
+A Next.js editorial homepage for The Hundred, featuring a lead story, recent articles, and locked content sections.
+
+## Getting Started
+
+- Set up a new project
+
+```bash
+npx create-next-app my-news -e https://github.com/colbyfayock/demo-news-starter
 ```
 
+- Navigate to your new project
+
+```bash
+cd my-news
+```
+
+- Start the development server
+
+```bash
+npm run dev
+```
